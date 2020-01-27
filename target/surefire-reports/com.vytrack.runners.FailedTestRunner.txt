@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.059 s <<< FAILURE! - in com.vytrack.runners.FailedTestRunner
+initializationError(com.vytrack.runners.FailedTestRunner)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalArgumentException: Not a file or directory: /Users/hakim/IdeaProjects/Summer-2019-europe-cucumber-selenium/target/rerun.txt
+

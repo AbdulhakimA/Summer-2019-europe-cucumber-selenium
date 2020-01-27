@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.145 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+initializationError(com.vytrack.runners.CukesRunner)  Time elapsed: 0.002 s  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to parse resource at: file:src/test/resources/features/Contacts.feature
+Caused by: gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(55:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ExamplesLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got '​'
+
