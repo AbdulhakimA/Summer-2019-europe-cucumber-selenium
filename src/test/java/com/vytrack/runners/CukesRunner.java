@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
         //where our feature are located
         features = "src/test/resources/features/",
         glue = "com/vytrack/step_definitions/",
-        dryRun = false,
-       tags = "@hello"
+        dryRun = true,
+       tags = "@wip"
 
 
 

@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36dd79b5-8fac-4cb4-bcba-862851199e26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/summer-2019-europe-cucumber-selenium" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Summer-2019-europe-cucumber-selenium.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/ContactsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/ContactsStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigationMenuStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigationMenuStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/ContactsStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/ContactsStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AccountTypes.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Contacts.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="final" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -38,20 +50,23 @@
     </option>
   </component>
   <component name="ProjectId" id="1WtlOSw8SWAIHX432eA2bm8Artg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
       <recent name="$PROJECT_DIR$/src/test/java/com/vytrack/utilities" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -73,6 +88,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -89,55 +105,96 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2020" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580150236037">
       <screen x="1920" y="0" width="1280" height="800" />
     </state>
     <state x="2020" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580150236037" />
-    <state x="2239" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580052074053">
+    <state x="2239" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580923036515">
       <screen x="1920" y="0" width="1280" height="800" />
     </state>
-    <state x="2239" y="210" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580052074053" />
-    <state width="1238" height="241" key="GridCell.Tab.0.bottom" timestamp="1580159992292">
+    <state x="2239" y="210" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580923036515" />
+    <state x="2248" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580930127165">
       <screen x="1920" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="241" key="GridCell.Tab.0.bottom/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580159992292" />
-    <state width="1238" height="241" key="GridCell.Tab.0.bottom/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580158149978" />
+    <state x="2248" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580930127165" />
+    <state x="2018" y="2" key="CommitChangelistDialog2" timestamp="1580930014171">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state x="2018" y="2" key="CommitChangelistDialog2/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580930014171" />
+    <state width="771" height="149" key="GridCell.Tab.0.bottom" timestamp="1580934648823">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state width="771" height="149" key="GridCell.Tab.0.bottom/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580934648823" />
+    <state width="619" height="288" key="GridCell.Tab.0.bottom/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580932481509" />
     <state width="1238" height="241" key="GridCell.Tab.0.bottom/1920.23.1280.777/0.23.1920.978@1920.23.1280.777" timestamp="1580138583075" />
     <state width="1238" height="241" key="GridCell.Tab.0.bottom/1920.23.1280.777/0.23.1920.992@1920.23.1280.777" timestamp="1580003166670" />
-    <state width="1238" height="241" key="GridCell.Tab.0.center" timestamp="1580159992290">
+    <state width="771" height="149" key="GridCell.Tab.0.center" timestamp="1580934648821">
       <screen x="1920" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="241" key="GridCell.Tab.0.center/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580159992290" />
-    <state width="1238" height="241" key="GridCell.Tab.0.center/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580158149977" />
+    <state width="771" height="149" key="GridCell.Tab.0.center/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580934648821" />
+    <state width="619" height="288" key="GridCell.Tab.0.center/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580932481507" />
     <state width="1238" height="241" key="GridCell.Tab.0.center/1920.23.1280.777/0.23.1920.978@1920.23.1280.777" timestamp="1580138583073" />
     <state width="1238" height="241" key="GridCell.Tab.0.center/1920.23.1280.777/0.23.1920.992@1920.23.1280.777" timestamp="1580003166669" />
-    <state width="1238" height="241" key="GridCell.Tab.0.left" timestamp="1580159992290">
+    <state width="771" height="149" key="GridCell.Tab.0.left" timestamp="1580934648820">
       <screen x="1920" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="241" key="GridCell.Tab.0.left/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580159992290" />
-    <state width="1238" height="241" key="GridCell.Tab.0.left/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580158149976" />
+    <state width="771" height="149" key="GridCell.Tab.0.left/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580934648820" />
+    <state width="619" height="288" key="GridCell.Tab.0.left/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580932481506" />
     <state width="1238" height="241" key="GridCell.Tab.0.left/1920.23.1280.777/0.23.1920.978@1920.23.1280.777" timestamp="1580138583072" />
     <state width="1238" height="241" key="GridCell.Tab.0.left/1920.23.1280.777/0.23.1920.992@1920.23.1280.777" timestamp="1580003166652" />
-    <state width="1238" height="241" key="GridCell.Tab.0.right" timestamp="1580159992291">
+    <state width="771" height="149" key="GridCell.Tab.0.right" timestamp="1580934648822">
       <screen x="1920" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="241" key="GridCell.Tab.0.right/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580159992291" />
-    <state width="1238" height="241" key="GridCell.Tab.0.right/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580158149977" />
+    <state width="771" height="149" key="GridCell.Tab.0.right/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580934648822" />
+    <state width="619" height="288" key="GridCell.Tab.0.right/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580932481508" />
     <state width="1238" height="241" key="GridCell.Tab.0.right/1920.23.1280.777/0.23.1920.978@1920.23.1280.777" timestamp="1580138583074" />
     <state width="1238" height="241" key="GridCell.Tab.0.right/1920.23.1280.777/0.23.1920.992@1920.23.1280.777" timestamp="1580003166669" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1580930136106">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580930136106" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1580930136104">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580930136104" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1580930136104">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580930136104" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1580930136105">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580930136105" />
     <state x="2061" y="39" key="SettingsEditor" timestamp="1580042481385">
       <screen x="1920" y="0" width="1280" height="800" />
     </state>
     <state x="2061" y="39" key="SettingsEditor/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580042481385" />
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1580033282204">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/1920.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1580033282204" />
-    <state x="2218" y="35" width="683" height="729" key="find.popup" timestamp="1580157168373">
+    <state x="2355" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1580930146693">
       <screen x="1920" y="0" width="1280" height="800" />
     </state>
-    <state x="2218" y="35" width="683" height="729" key="find.popup/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580157168373" />
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/1920.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1580033282204" />
+    <state x="2355" y="291" key="com.intellij.ide.util.TipDialog/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580930146693" />
+    <state x="2343" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580934499294">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state x="2343" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580934499294" />
+    <state x="2343" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580932472801" />
+    <state x="2218" y="35" width="683" height="729" key="find.popup" timestamp="1580925351691">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state x="2218" y="35" width="683" height="729" key="find.popup/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580925351691" />
     <state x="2218" y="35" width="683" height="729" key="find.popup/1920.0.1280.800/0.23.1920.1057@1920.0.1280.800" timestamp="1580138037580" />
+    <state x="1937" y="97" key="new project wizard" timestamp="1580930225984">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state x="1937" y="97" key="new project wizard/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580930225984" />
+    <state x="2317" y="328" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1580925404251">
+      <screen x="1920" y="0" width="1280" height="800" />
+    </state>
+    <state x="2317" y="328" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/1920.0.1280.800/0.0.1920.1080@1920.0.1280.800" timestamp="1580925404251" />
   </component>
 </project>
