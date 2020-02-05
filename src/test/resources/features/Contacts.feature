@@ -72,17 +72,7 @@ Feature: Contacts page
       | store manager | Customers  | Contacts        | All - Contacts - Customers                                         |
       | store manager | Activities | Calendar Events | All - Calendar Events - Activities                                 |
       | store manager | System     | Jobs            | All - Jobs - System                                                |
-      | store manager | System     | Menus           | All - Menus - System
-
-
-
-
-   @wip
-  Scenario: Contacts test with email
-    Given the user logged in as a "store manager"
-    And the user navigates "Customers" "Contacts"
-    When the user click the "mbrackstone9@example.com" from contacts
-    Then the information should be the same with database
+      | store manager | System     | Menus           | All - Menus - System                                               |
 
 
 
@@ -95,4 +85,6 @@ Feature: Contacts page
 
 
 
-      |
+
+
+

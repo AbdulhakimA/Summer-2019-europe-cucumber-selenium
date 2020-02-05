@@ -33,3 +33,11 @@
             |driver       |Activities  |Calendar Events|Calendar Events - Activities|
             |sales manager|Customers   |Accounts       |Accounts - Customers        |
             |store manager|Marketing   |Campaigns      |Campaigns - Marketing       |
+
+    @wip
+    Scenario: Contacts test with email
+      Given the user logged in as a "store manager"
+      And the user navigates "Customers" "Contacts"
+      When the user click the "mbrackstone9@example.com" from contacts
+      Then the information should be the same with database
+
